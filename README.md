@@ -1,7 +1,7 @@
 # Cafetería Aroma
 
 ## Integrantes
-- Ronaldo Pablo Melgarejo (rol A, B y C - trabajo individual)
+- Ronaldo Pablo Melgarejo Cardozo (rol A, B y C - trabajo individual)
 
 ## Descripción
 Proyecto web de una cafetería con página principal, menú, tres secciones
