@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería Aroma</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Cafetería Aroma</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="inicio">
+        <h2>Bienvenido</h2>
+        <p>El mejor café de la ciudad.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Nuestro Menú</h2>
+        <ul>
+            <li>Café Espresso - $2.50</li>
+            <li>Capuchino - $3.00</li>
+            <li>Croissant - $2.00</li>
+        </ul>
+    </section>
+
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Más de 10 años sirviendo café artesanal.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="formulario">
+            <input type="text" id="nombre" placeholder="Nombre" required>
+            <input type="email" id="email" placeholder="Correo" required>
+            <textarea id="mensaje" placeholder="Mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="respuesta"></p>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
